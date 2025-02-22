@@ -1,19 +1,62 @@
-Banco de Dados:
-Um banco de dados é um sistema organizado para armazenar, gerenciar e manipular informações de forma estruturada. Ele permite que dados sejam armazenados em tabelas ou outros formatos, e facilita o acesso, a consulta, a inserção, a atualização e a exclusão de dados.
-Essencialmente, um banco de dados é como um repositório onde as informações ficam guardadas de forma segura, mas de fácil acesso para quem tem permissão. Ele é usado em diversas aplicações, como sites, sistemas financeiros, aplicativos, entre outros.
+CONCEITOS IMPORTANTES DE BANCO DE DADOS.
 
-SGBD:
-Um SGBD (Sistema de Gerenciamento de Banco de Dados) é um software que facilita o processo de criação, gerenciamento, manipulação e controle de acesso a bancos de dados. Ele fornece as ferramentas necessárias para que usuários e programas possam interagir com o banco de dados de maneira eficiente e segura.
-O principal objetivo de um SGBD é fornecer uma interface entre os usuários e o banco de dados, garantindo que as operações (como inserção, atualização, exclusão e consulta de dados) sejam feitas de forma organizada, segura e eficiente.
+1-Banco de Dados:
+Coleção organizada de dados, armazenados em meio eletrônico e que se relacionam de alguma forma, permitindo efetuar cosultas que retornam os dados armazenados, de diversas maneiras distintas, o mesmos que Base de Dados (Database).
 
-Diferença de BD e SGBD:
-A diferença entre banco de dados (BD) e sistema de gerenciamento de banco de dados (SGBD) é que BD se refere ao conjunto de dados organizados, enquanto SGBD é o software ou a ferramenta que permite gerenciar, manipular e interagir com esses dados de forma eficiente.
+2-SGBD:
+Sistema de Gerenciamento de Bancos de Dados. Conjunto de softwares e ferramentas que faz a interação entre aplicações, usuários e o banco de dados. Não é o banco de dados em si, mas um sistema de acesso.
+Exemplos:
+-Oracle Database
+-MySQL Server
+-Microsoft SQL Server
+-IBM DB2
 
-Modelo relacional de BD:
-O modelo relacional de banco de dados é um tipo de organização e estrutura de dados em que as informações são armazenadas em tabelas (ou relacionamentos), compostas por linhas (chamadas de tuplas) e colunas (chamadas de atributos). Esse modelo é baseado na teoria das relações matemáticas e foi proposto por Edgar F. Codd em 1970.
+3-Modelagem:
+Processo crucial no projeto de um banco de dados, permite determinar as tabelas com seus atributos e relacionamentos que compõem o BD e elimina redundâncias e dados sem interesse.
 
-Oque é um microserviço?
-Um microserviço é um estilo de arquitetura de software onde uma aplicação é estruturada como um conjunto de pequenos serviços independentes, que se comunicam entre si, geralmente através de APIs. Cada microserviço é responsável por uma funcionalidade específica da aplicação e pode ser desenvolvido, implantado, atualizado e escalado de forma independente.
+4-Tabelas, Linhas, Colunas:
+Coluna: Domínio de valorez de um tipo específico, conhecida também como atributo.
+Linha: Trata-se de um conjunto de valores de colunas relacionados, conhecido também como tupla ou registro.
+Tabela: Coleção de linhas (registros) em um banco de dados relacional, que armazena dados referentes a uma entidade em particular.
 
-APIs?
-Uma API (Interface de Programação de Aplicações, do inglês Application Programming Interface) é um conjunto de regras e definições que permite que diferentes sistemas, aplicativos ou serviços se comuniquem entre si. Em outras palavras, uma API é uma interface que permite que um programa aceda funcionalidades ou dados de outro programa, sistema ou serviço, de forma padronizada.
+5-SQL - Structured Query Language:
+Linguagem de Consulta Estruturada. Usada para realizar a comunicação com um banco de dados, padrão em bancos de dados relacionais.
+
+6-Chave:
+Uma ou mais colunas de uma relação cujos valores são usados para indentificar de forma exclusiva uma linha ou conjunto de linhas.
+Pode ser:
+-Alternativa
+-Candidata
+-Composta
+-Estrangeira 
+-Primária 
+-Substituta
+As chaves mais importantes são as chaves primárias e estrangeiras pois são usadas para criar os relacionamentos entre as tabelas.
+
+7-Índices:
+Estrutura de dados empregada para otimizar a seleção de um conjunto específico de colunas em um banco de dados relacional.
+
+8-Backup:
+Operação de extrema importância em um BD. Backup é uma cópia de segurança de dados que pode ser utilizada para realizar restaurações em caso de perda ou corrupção dos dados originais.
+
+9-DER:
+Diagrama Entidade-Relacionamento. Diagrama de modelagem de dados que permite visualizar a interação entre entidades (tabelas), atributos (colunas) e seus relacionamentos.
+
+10-Banco Não-Relacionais:
+NoSQL - Classe de sistemas de bancos de dados que incorporam outras formas de consultas distintas do SQL tradicional, e que não utilizam estruturas relacionais tradicionais.
+Exemplos:
+-MongoDB
+-Cassandra
+-Coachbase
+-HBase
+-Neo4j
+
+
+
+MODELOS DE BD
+
+
+
+
+
+
