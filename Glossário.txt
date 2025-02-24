@@ -1,7 +1,10 @@
 CONCEITOS IMPORTANTES DE BANCO DE DADOS.
 
-1-Banco de Dados:
+1-BANCO DE DADOS:
 Coleção organizada de dados, armazenados em meio eletrônico e que se relacionam de alguma forma, permitindo efetuar cosultas que retornam os dados armazenados, de diversas maneiras distintas, o mesmos que Base de Dados (Database).
+Podem ser:
+-RELACIONAIS
+-NÃO-RELACIONAIS
 
 2-SGBD:
 Sistema de Gerenciamento de Bancos de Dados. Conjunto de softwares e ferramentas que faz a interação entre aplicações, usuários e o banco de dados. Não é o banco de dados em si, mas um sistema de acesso.
@@ -11,18 +14,18 @@ Exemplos:
 -Microsoft SQL Server
 -IBM DB2
 
-3-Modelagem:
+3-MODELAGEM:
 Processo crucial no projeto de um banco de dados, permite determinar as tabelas com seus atributos e relacionamentos que compõem o BD e elimina redundâncias e dados sem interesse.
 
-4-Tabelas, Linhas, Colunas:
-Coluna: Domínio de valorez de um tipo específico, conhecida também como atributo.
-Linha: Trata-se de um conjunto de valores de colunas relacionados, conhecido também como tupla ou registro.
-Tabela: Coleção de linhas (registros) em um banco de dados relacional, que armazena dados referentes a uma entidade em particular.
+4-TABELAS, LINHAS, COLUNAS:
+COLUNA: Domínio de valorez de um tipo específico, conhecida também como ATRIBUTO.
+LINHA: Trata-se de um conjunto de valores de colunas relacionados, conhecido também como tupla ou REGISTRO.
+TABELA: Coleção de linhas (registros) em um banco de dados relacional, que armazena dados referentes a uma ENTIDADE em particular.
 
 5-SQL - Structured Query Language:
 Linguagem de Consulta Estruturada. Usada para realizar a comunicação com um banco de dados, padrão em bancos de dados relacionais.
 
-6-Chave:
+6-CHAVE:
 Uma ou mais colunas de uma relação cujos valores são usados para indentificar de forma exclusiva uma linha ou conjunto de linhas.
 Pode ser:
 -Alternativa
@@ -31,18 +34,18 @@ Pode ser:
 -Estrangeira 
 -Primária 
 -Substituta
-As chaves mais importantes são as chaves primárias e estrangeiras pois são usadas para criar os relacionamentos entre as tabelas.
+As chaves mais IMPORTANTES são as chaves primárias e estrangeiras pois são usadas para criar os relacionamentos entre as tabelas.
 
-7-Índices:
+7-ÍNDICES:
 Estrutura de dados empregada para otimizar a seleção de um conjunto específico de colunas em um banco de dados relacional.
 
-8-Backup:
+8-BACKUP:
 Operação de extrema importância em um BD. Backup é uma cópia de segurança de dados que pode ser utilizada para realizar restaurações em caso de perda ou corrupção dos dados originais.
 
 9-DER:
 Diagrama Entidade-Relacionamento. Diagrama de modelagem de dados que permite visualizar a interação entre entidades (tabelas), atributos (colunas) e seus relacionamentos.
 
-10-Banco Não-Relacionais:
+10-BANCO NÃO-RELACIONAIS:
 NoSQL - Classe de sistemas de bancos de dados que incorporam outras formas de consultas distintas do SQL tradicional, e que não utilizam estruturas relacionais tradicionais.
 Exemplos:
 -MongoDB
@@ -88,3 +91,25 @@ Etapas:
 -Escolha de índices
 -Definir integridade referencial
 -Projeto de performance
+
+MODELO CONCEITUAL:
+O modelo conceitual é a primeira fase da modelagem de banco de dados. Ele define o quê será armazenado, sem se preocupar com como os dados serão implementados ou organizados no banco de dados. Esse modelo visa representar as necessidades do negócio de forma abstrata. A ferramenta mais comum para essa modelagem é o Diagrama Entidade-Relacionamento (ER).
+
+COMPONENTES DO DIAGRAMA ENTIDADE-RELACIONAMENTO (ER)
+-ENTIDADES: São objetos ou coisas do mundo real que possuem identidade própria e são importantes para o sistema de banco de dados. Cada entidade pode ter vários atributos e um conjunto de instâncias.
+-ATRIBUTOS: São as propriedades ou características de uma entidade ou relacionamento. Atributos descrevem as qualidades das entidades ou dos relacionamentos.
+-RELACIONAMENTOS: São associações entre duas ou mais entidades. Os relacionamentos mostram como as entidades interagem entre si no sistema.
+-CARDINALIDADE: A cardinalidade descreve quantas instâncias de uma entidade podem estar associadas a uma instância de outra entidade em um relacionamento. No diagrama ER, a cardinalidade é representada de forma explícita nas linhas de relacionamento, e os tipos mais comuns são 1:1, 1:N e M:N.
+
+MODELO LÓGICO:
+O modelo lógico é uma transição do modelo conceitual e tem como objetivo definir como os dados serão estruturados de maneira mais específica, de acordo com as características do sistema de gerenciamento de banco de dados (SGBD) escolhido. Ele descreve as tabelas, chaves primárias, chaves estrangeiras e tipos de dados que serão utilizados.
+-A ideia é transformar o modelo ER em um esquema lógico, que esteja pronto para ser implementado no banco de dados.
+
+MODELO FÍSICO:
+O modelo físico descreve como os dados serão realmente armazenados no banco de dados. Ele leva em consideração a performance, o armazenamento e os índices para otimizar as consultas. A modelagem física envolve decisões como:
+-Definir o tipo de dados mais adequado para cada atributo.
+-Escolher os índices para melhorar o desempenho das consultas.
+-Especificar como os dados serão distribuídos ou particionados para suportar a escalabilidade.
+
+
+
