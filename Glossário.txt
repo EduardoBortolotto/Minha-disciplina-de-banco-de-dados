@@ -53,7 +53,38 @@ Exemplos:
 
 
 
+MODELAGEM DE DADOS.
 
+Modelar um Sistema:
+Modelar um sistema envolve a criação de um modelo abstrato que representa como o sistema será estruturado, como as diversas partes dele irão interagir e qual será seu comportamento. Essa fase ajuda a entender e organizar todos os componentes do sistema.
+Etapas:
+-Levantamento de requisitos
+-Modelagem funcional
+-Modelage de arquitetura
+-Design de interface
 
+Projetar um Sistema:
+Projetar um sistema é o processo de detalhar as decisões tomadas durante a modelagem, considerando aspectos como performance, segurança, escalabilidade e manutenibilidade.
+Etapas:
+-Escolha de tecnologias
+-Definição de estruturas de dados
+-Estrutura do Código
+-Plano de Implementação
 
+Modelar e projetar um banco de dados:
+A modelagem e o projeto de um banco de dados estão intimamente ligados ao desenvolvimento de sistemas que precisam armazenar, recuperar e manipular dados de maneira eficiente.
 
+Modelar um banco de dados:
+Criar um modelo CONCEITUAL que defina como os dados estarão estruturados e como se relacionam.
+Etapas:
+-Modelo entidade-relacionamento(ER)
+-Definição de atributos
+-Normalização
+
+Projetar um banco de dados:
+Criar um modelo LÓGICO e físico que vai ser implementado no banco de dados.
+Etapas:
+-Modelo relacional
+-Escolha de índices
+-Definir integridade referencial
+-Projeto de performance
