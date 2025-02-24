@@ -82,7 +82,7 @@ Etapas:
 -Normalização
 
 Projetar um banco de dados:
-Criar um modelo LÓGICO e físico que vai ser implementado no banco de dados.
+Criar um modelo LÓGICO e FÍSICO que vai ser implementado no banco de dados.
 Etapas:
 -Modelo relacional
 -Escolha de índices
