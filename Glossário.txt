@@ -108,7 +108,7 @@ O modelo lógico é uma transição do modelo conceitual e tem como objetivo def
 -Definição de chaves estrangeiras a partir da cardinalidade
   -1:1 -> a chave estrangeira pode estar em qualquer uma das entidade
   -1:N -> a chave entrangeira vai para o lado da entidade que tem o n
-	-M:N -> cria-se uma terceira tabela, onde as chaves primárias das duas tabelas vão se unir
+  -M:N -> cria-se uma terceira tabela, onde as chaves primárias das duas tabelas vão se unir
 
 MODELO FÍSICO:
 O modelo físico descreve como os dados serão realmente armazenados no banco de dados. Ele leva em consideração a performance, o armazenamento e os índices para otimizar as consultas. A modelagem física envolve decisões como:
