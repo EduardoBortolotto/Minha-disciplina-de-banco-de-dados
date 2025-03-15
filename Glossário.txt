@@ -2,9 +2,6 @@ CONCEITOS IMPORTANTES DE BANCO DE DADOS.
 
 1-BANCO DE DADOS:
 Coleção organizada de dados, armazenados em meio eletrônico e que se relacionam de alguma forma, permitindo efetuar cosultas que retornam os dados armazenados, de diversas maneiras distintas, o mesmos que Base de Dados (Database).
-Podem ser:
--RELACIONAIS
--NÃO-RELACIONAIS
 
 2-SGBD:
 Sistema de Gerenciamento de Bancos de Dados. Conjunto de softwares e ferramentas que faz a interação entre aplicações, usuários e o banco de dados. Não é o banco de dados em si, mas um sistema de acesso.
